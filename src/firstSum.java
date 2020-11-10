@@ -1,6 +1,6 @@
 public class firstSum {
 	
-	//returns the sum called by using blah blah add()
+	//method returns the sum called by using blah blah add()
 	public static int add(int x, int c) {
 		return x + c;
 	}

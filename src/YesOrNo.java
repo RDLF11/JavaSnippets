@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class YesOrNo{
+  //loop to get a yes or no answer
   public static void main(String[]args) {
 
     String answer;
@@ -29,7 +30,7 @@ public class YesOrNo{
 
       in.close();
     }
-
+    
   }
 
 }

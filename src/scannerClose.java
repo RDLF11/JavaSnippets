@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class scannerClose {
 
-	public scannerClose() {
+	public static void scannerClosing() {
 		
 	int number1;
 	
@@ -19,6 +19,12 @@ public class scannerClose {
 		System.out.println("Closing Scanner...");
 		YourScannerName.close();
 		System.out.println("Scanner Closed.");
+	}
+
+	public static void main(String[] args) {
+
+		scannerClosing();
+		
 	}
 
 }
