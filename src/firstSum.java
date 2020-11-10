@@ -1,8 +1,10 @@
 public class firstSum {
 	
+	//returns the sum called by using blah blah add()
 	public static int add(int x, int c) {
-		return x+c;
+		return x + c;
 	}
+
 	public static void main(String[] arg) {
 		int x = 5;
 		int c = 3;
